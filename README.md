@@ -1,10 +1,14 @@
 # DiscordJS v13 Template
 
-- This template have: Events and Commands Handlers.
-- You need to have installed: Node 16.x.x or a higher version
+This templetes offer:
+
+- Events and Commands Handlers.
+- Examples of the commands.
+- Ping and Avatar command.
 
 # Installation
 
+- You need to have installed: Node 16.x.x or a higher version.
 - Clone the repository, or you can create your own using the template function (on GitHub)
 - To install all the packages use `npm i`
 - In the `.env` file paste your token.
