@@ -8,15 +8,18 @@
 
 # Installation
 
-- You need to have installed: Node 16.x.x or a higher version.
+- You need to have installed: Node 16.X.X or a higher version.
 - Clone the repository, or you can create your own using the template function (on GitHub)
 - To install all the packages use `npm i`
 - In the `.env` file paste your token.
+```
+token = yourBotToken
+```
 - Execute `node .`
 
 ## Github Repository
 
-Cactus Made by Flaing, project [Here](https://github.com/flaaaing/DiscordJS-v13-Template)
+DiscordJS v13 Template Made by Flaing, project [Here](https://github.com/flaaaing/DiscordJS-v13-Template)
 Fork the project [Here](https://github.com/flaaaing/DiscordJS-v13-Template/fork)
 
 # Examples
