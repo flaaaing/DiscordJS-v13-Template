@@ -8,7 +8,8 @@ module.exports = {
     async run(client, interaction) {
         const embed = new MessageEmbed()
             .setTitle('Pong! 🏓')
-            .addField(`Discord API Latency: **${client.ws.ping}ms**`)
+            .addFields({ name: 'Discord API Latency', value: ` **${client.ws.ping}ms**` })
+            .setColor('GREEN')
             .setTimestamp()
         return interaction.reply({embeds: [embed]})
     }
