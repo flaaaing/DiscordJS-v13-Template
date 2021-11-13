@@ -1,5 +1,6 @@
 {
     "token": "OTA4OTA2MTAxMTk2NjAzMzkz.YY8ixQ.8Yw_aGoevPiAsof1o1VspIepAaw",
     "clientId": "908906101196603393",
+    "guildId": "883890884716937266",
     "mongoURL": "mongodb+srv://flaing:rollers07@cluster0.4iq0p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }

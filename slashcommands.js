@@ -1,7 +1,7 @@
 const fs = require('fs')
 const { REST } = require('@discordjs/rest')
 const { Routes } = require('discord-api-types/v9')
-const { clientId, token } = require('./config.json')
+const { clientId,token,guildId } = require('./config.json')
 
 const rest = new REST({ version: '9'}).setToken(token)
 
@@ -18,10 +18,10 @@ async function createSlash() {
             }
         })
         await rest.put(
-            Routes.applicationGuildCommands(clientId),
+            Routes.applicationGuildCommands(clientId, guildId),
             { body: commands }
         )
-        console.log('.')
+        console.log('The slash commands are pushed.')
     } catch(e) {
         console.error(e)
     }
