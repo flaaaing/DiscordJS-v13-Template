@@ -5,6 +5,6 @@ module.exports = {
         .setName('example') // Name of the command.
         .setDescription('example'), // Description of the command.
     async run(client, interaction) {
-        await interaction.reply('.'); // Reply message
+        await interaction.reply('This is an example of a command.'); // Reply message
     }
 }

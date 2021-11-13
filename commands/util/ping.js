@@ -4,11 +4,11 @@ const { MessageEmbed } = require('discord.js')
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('ping')
-        .setDescription('Return the ping of the bot and the API of Discord.'),
+        .setDescription('Return the latency of the Discord API.'),
     async run(client, interaction) {
-        const embed = new Discord.MessageEmbed()
+        const embed = new MessageEmbed()
             .setTitle('Pong! 🏓')
-            .addField(`**${Date.now() - message.createdTimestamp}ms** \nDiscord API Latency: **${Math.round(client.ws.ping)}ms**`)
+            .addField(`Discord API Latency: **${client.ws.ping}ms**`)
             .setTimestamp()
         return interaction.reply({embeds: [embed]})
     }
