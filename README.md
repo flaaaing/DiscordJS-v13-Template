@@ -1,12 +1,19 @@
 # DiscordJS v13 Template
 
 - This template have: Events and Commands Handlers.
+- You need to have installed: Node 16.x.x or a higher version
 
 # Installation
+
 - Clone the repository, or you can create your own using the template function (on GitHub)
 - To install all the packages use `npm i`
 - In the `.env` file paste your token.
 - Execute `node .`
+
+# Examples
+
+- In the commands folder there is another folder called examples in that folder you have command examples both with embed and without embed.
+- [Folder](https://github.com/flaaaing/DiscordJS-v13-Template/tree/main/commands/example)
 
 # Credits
 
