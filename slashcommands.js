@@ -12,8 +12,8 @@ async function createSlash() {
         const commands = []
         fs.readdirSync('./commands').forEach(async (category) => {
             const commandFiles = fs.readdirSync(`./commands/${category}`).filter((archivo) => archivo.endsWith('.js'))
-            for (const archivo of commandFiles) {
-                const command = require(`./commands/${category}/${archivo}`)
+            for (const files of commandFiles) {
+                const command = require(`./commands/${category}/${files}`)
                 commands.push(command.data.toJSON())
             }
         })
