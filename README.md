@@ -20,7 +20,8 @@ token = yourBotToken
 ## Github Repository
 
 DiscordJS v13 Template Made by Flaing, project [Here](https://github.com/flaaaing/DiscordJS-v13-Template)
-Fork the project [Here](https://github.com/flaaaing/DiscordJS-v13-Template/fork)
+1. Fork the project [Here](https://github.com/flaaaing/DiscordJS-v13-Template/fork)
+2. Clone your fork: `git clone https://github.com/flaaaing/DiscordJS-v13-Template.git`
 
 # Examples
 
