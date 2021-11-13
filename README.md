@@ -4,9 +4,9 @@
 
 # Installation
 - Clone the repository, or you can create your own using the template function (on GitHub)
-- To install all the packages use `npm i`.
+- To install all the packages use `npm i`
 - In the `.env` file paste your token.
-- Execute `node .`.
+- Execute `node .`
 
 # Credits
 
