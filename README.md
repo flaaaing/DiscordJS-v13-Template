@@ -4,10 +4,9 @@
 
 # Installation
 - Clone the repository, or you can create your own using the template function (on GitHub)
-- Install the dependencies with `npm i`
-- In the `[.env](https://github.com/flaaaing/DiscordJS-v13-Template/blob/main/.env)` file paste your token
-- Paste your bot token in the *.env* file
-- Execute `node .`
+- To install all the packages use `npm i`.
+- In the `.env` file paste your token.
+- Execute `node .`.
 
 # Credits
 
