@@ -1,6 +1,6 @@
 # DiscordJS v13 Template
 
-### This templetes offer:
+### This templete offer:
 
 - Events and Commands Handlers.
 - Examples of the commands.
@@ -14,6 +14,11 @@
 - In the `.env` file paste your token.
 - Execute `node .`
 
+## Github Repository
+
+Cactus Made by Flaing, project [Here](https://github.com/flaaaing/DiscordJS-v13-Template)
+Fork the project [Here](https://github.com/flaaaing/DiscordJS-v13-Template/fork)
+
 # Examples
 
 - In the commands folder there is another folder called examples in that folder you have command examples both with embed and without embed.
@@ -24,3 +29,4 @@
 - This project was licenced by the MIT License.
 - You can use this template for Commercial use Modification Distribution Private use.
 - But you need to give me the License and copyright notice.
+- This template was inspired in [DiscordJS Guide](https://discordjs.guide/#before-you-begin)
