@@ -1,6 +1,6 @@
 # DiscordJS v13 Template
 
-This templetes offer:
+### This templetes offer:
 
 - Events and Commands Handlers.
 - Examples of the commands.
