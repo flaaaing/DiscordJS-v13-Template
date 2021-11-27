@@ -1,6 +1,6 @@
 {
-    "token": "your token",
+    "token": "OTAwODc3OTUzOTA5NTMwNjU0.YXHt-Q.JTMPi0aWK1FTZ_KYKhHdST4budc",
     "clientId": "your client id",
-    "guildId": "your guild id",
-    "mongoURL": "your mongo db url"
+    "guildId": "",
+    "mongoURL": "mongodb+srv://flaing:rollers07@cluster0.4iq0p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
